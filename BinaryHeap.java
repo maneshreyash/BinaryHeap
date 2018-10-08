@@ -1,20 +1,3 @@
-/*
- * Implementation of data structures and algorithms
- * Fall 2018
- * Short Project 3: Priority queues
- * Date: 23rd September,2018
- *
- * Team Members:
- * Shreyash Mane - ssm170730
- * Swapna Chintapalli - sxc180048
- *
- * */
-
-// Starter code for bounded-size Binary Heap implementation
-// Changed signature of heapSort changing <T> to <T extends Comparable<? super T>>
-
-//package sxc180048;
-
 import java.util.Comparator;
 import java.util.Scanner;
 
@@ -196,5 +179,4 @@ public class BinaryHeap<T extends Comparable<? super T>> {
             }
         }
     }
-// end of functions for team project
 }
